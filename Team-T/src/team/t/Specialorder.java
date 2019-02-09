@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author temp
  */
-public class Specialorder {
+public class Specialorder extends Order {
     Date date;
     String number;
     public void confirm()
