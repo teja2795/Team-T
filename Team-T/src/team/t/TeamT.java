@@ -16,6 +16,22 @@ public class TeamT {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Customer c=new Customer();
+        c.sendOrder();
+        c.receiveOrder();
+        Order o=new Order();
+        o.close();
+        o.confirm();
+        Specialorder s=new Specialorder();
+        s.confirm();
+        s.close();
+        s.dispatch();
+        Normal n=new Normal();
+        n.confirm();
+        n.close();
+        n.dispatch();
+        n.receive();
+        
     }
     
 }
