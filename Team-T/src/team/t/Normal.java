@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author temp
  */
-public class Normal {
+public class Normal extends Order {
     Date date;
     String number;
     public void confirm()
